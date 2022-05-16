@@ -36,6 +36,18 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<configuration>
+					<goal> install </goal>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
+	<scm>
+		<developerConnection>
+			scm:git:https://github.com/abdulquadir01/spring-pet-clinic.git
+		</developerConnection>
+	</scm>
 </project>
