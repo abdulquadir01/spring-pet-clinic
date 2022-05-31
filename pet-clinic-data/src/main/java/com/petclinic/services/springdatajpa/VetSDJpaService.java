@@ -1,7 +1,6 @@
 package com.petclinic.services.springdatajpa;
 
 import com.petclinic.model.Vet;
-import com.petclinic.repositories.SpecialtyRepository;
 import com.petclinic.repositories.VetRepository;
 import com.petclinic.services.VetService;
 import org.springframework.context.annotation.Profile;
@@ -18,11 +17,9 @@ import java.util.Set;
 public class VetSDJpaService implements VetService {
 
     private final VetRepository vetRepository;
-    private final SpecialtyRepository specialtyRepository;
 
-    public VetSDJpaService(VetRepository vetRepository, SpecialtyRepository specialtyRepository) {
+    public VetSDJpaService(VetRepository vetRepository) {
         this.vetRepository = vetRepository;
-        this.specialtyRepository = specialtyRepository;
     }
 
 
