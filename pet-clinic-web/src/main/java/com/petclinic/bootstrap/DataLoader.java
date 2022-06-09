@@ -36,7 +36,6 @@ public class DataLoader implements CommandLineRunner {
 
 
 
-
     private void loadData(){
 
         //------------------------PetsType-------------------------

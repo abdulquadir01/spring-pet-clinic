@@ -1,13 +1,12 @@
 package com.petclinic;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-class SpringPetClinicApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
-}
+//JUnit5 syntax included for this test.
+//@ExtendWith(SpringExtension.class)
+//@SpringBootTest
+//public class SpringPetClinicApplicationTests {
+//
+//	@Test
+//	void contextLoads() {
+//	}
+//
+//}
