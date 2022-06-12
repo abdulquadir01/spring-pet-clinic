@@ -27,6 +27,9 @@ jobs:
           name: Test
           command: mvn test
       - run:
+          name: iTest
+          command: mvn integration-test
+      - run:
           name: Install
           command: mvn install
 
