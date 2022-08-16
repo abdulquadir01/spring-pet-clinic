@@ -14,7 +14,6 @@ import java.util.Locale;
 public class PetTypeFormatter implements Formatter<PetType> {
 
     private  final PetTypeService petTypeService;
-
     public PetTypeFormatter(PetTypeService petTypeService) {
         this.petTypeService = petTypeService;
     }

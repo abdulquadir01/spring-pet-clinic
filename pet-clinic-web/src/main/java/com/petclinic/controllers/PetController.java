@@ -7,7 +7,7 @@ import com.petclinic.model.PetType;
 import com.petclinic.services.OwnerService;
 import com.petclinic.services.PetService;
 import com.petclinic.services.PetTypeService;
-import org.junit.platform.commons.util.StringUtils;
+import io.micrometer.core.instrument.util.StringUtils;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

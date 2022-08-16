@@ -8,8 +8,6 @@ import javax.persistence.Table;
 
 
 
-
-
 @Setter
 @Getter
 @NoArgsConstructor

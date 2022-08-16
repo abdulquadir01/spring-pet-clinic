@@ -25,6 +25,7 @@ public class Owner extends Person {
         this.address = address;
         this.city = city;
         this.telephone = telephone;
+
         if(pets != null){
             this.pets = pets;
         }
@@ -42,11 +43,11 @@ public class Owner extends Person {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner")
     private Set<Pet> pets = new HashSet<>();
 
-    /*
+    /**
     * Returns Pet with the same petName otherwise null
     * @param petName to test
     * @return true if petName is already in use
-    * */
+     */
     public Pet getPet(String name){
         return getPet(name, false);
     }
