@@ -21,5 +21,4 @@ public class Specialty extends BaseEntity{
 
     @Column(name = "description")
     private String description;
-
 }

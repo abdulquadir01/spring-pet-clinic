@@ -25,7 +25,7 @@ th:replace="~{fragments/layout :: layout (~{::body}, 'vets')}"
         <tr th:each="vet: ${vets}">
             <td th:text="${vet.firstName +' '+ vet.lastName}">Jhon</td>
             <td> <span th:each="specialty : ${vet.specialties}"
-                    th:text="${specialty.description + ' '}"
+                    th:text="${specialty.description + '  '}"
                     />
                 <span th:if="${vet?.specialties?.size()==0}">none</span>
             </td>
